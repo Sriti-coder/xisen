@@ -1,0 +1,117 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .meain-menu ul li {
+        margin: 0 11px;
+    }
+    .button {
+        display: inline-block;
+    }
+    .testimonial-img img {
+        width: 100%;
+    }
+    .access-img img {
+        width: 107%;
+        margin-top: 41px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-transparent {
+        padding: 20px 0;
+    }
+    .access-text {
+        margin-bottom: 61px;
+        margin-top: -100px;
+    }
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-transparent {
+        padding: 20px 0;
+    }
+    .btn {
+        margin-bottom: 44px;
+    }
+    .access-text {
+        margin-bottom: 61px;
+        margin-top: -100px;
+    }
+    .slider-text h2 {
+        font-size: 35px;
+    }
+    .slider-img img {
+        width: 100%;
+    }
+    .access-img img {
+        margin-left: -3px;
+    }
+    .access-text h3 {
+        font-size: 36px;
+        margin-top: 52px;
+    }
+    .feature-area {
+        margin-top: -148px;
+    }
+    .access-text h3 {
+        font-size: 32px;
+        margin-top: 52px;
+    }
+    .access-img-1 img {
+        margin-left: 22px;
+    }
+    .testimonial-img img {
+        max-width: 100%;
+    }
+    .section-title {
+        margin-top: 44px;
+        margin-left: -25px;
+    }
+    .section-title h2 {
+        font-size: 27px;
+    }
+    .section-title h2 {
+        font-size: 19px;
+    }
+    .newsletter button {
+        float: none;
+        margin-top: 19px;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    .footer-bg{
+        background-image: url(img/bg/bg3.png);
+        margin-top: -193px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header-area {
+	margin-top: 15px;
+}
+.slider-text {
+	padding-top: 140px;
+	margin-top: -132px;
+}
+.slider-text h2 {
+	font-size: 30px;
+}
+.section-title-2 h2 {
+	font-size: 26px;
+	font-weight: 500;
+}
+}
